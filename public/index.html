@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P2C8J7K');</script> -->
+  <!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MFXVZRZ');</script>
+  <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>FILMS DIRECTORY</title>
+
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-DD933KW8J7"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DD933KW8J7', {
+      'send_page_view': false,
+      'linker': {
+        'domains': ['opaku1.000webhostapp.com', 'testingweb.github.io']
+      }
+    });
+
+    function getClientIdFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('clientId');
+    }
+
+    function getSessionIdFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('sessionId');
+    }
+
+    gtag('config', 'G-DD933KW8J7', {
+      'client_id': getClientIdFromUrl(),
+      'session_id': getSessionIdFromUrl()
+    });
+  </script>
+  <!-- <script>
+    (function() {
+        var generateLinkerParam = function() {
+            var getCookiebyName = function(name) {
+                var pair = document.cookie.match(new RegExp(name + '=([^;]+)'));
+                return !!pair ? pair[1].match(/GA1|GS1\.[0-9]\.(.+)/)[1] : undefined;
+            };
+
+            var cookies = {
+                _ga: getCookiebyName("_ga"),
+                _gid: getCookiebyName("_gid"),
+                _ga_session: getCookiebyName("_ga_DD933KW8J7")
+            };
+
+            var browser_fingerprint = (function(a, b) {
+                var F = function(a) {
+                    Ne.set(a);
+                };
+                a = [window.navigator.userAgent, (new Date).getTimezoneOffset(), window.navigator.userLanguage || window.navigator.language, Math.floor((new Date).getTime() / 60 / 1E3) - (void 0 === b ? 0 : b), a].join("*");
+                if (!(b = F)) {
+                    b = Array(256);
+                    for (var c = 0; 256 > c; c++) {
+                        for (var d = c, e = 0; 8 > e; e++)
+                            d = d & 1 ? d >>> 1 ^ 3988292384 : d >>> 1;
+                        b[c] = d;
+                    }
+                }
+                F = b;
+                b = 4294967295;
+                for (c = 0; c < a.length; c++)
+                    b = b >>> 8 ^ F[(b ^ a.charCodeAt(c)) & 255];
+                return ((b ^ -1) >>> 0).toString(36);
+            })();
+
+            var hash_cookie_value = function(val) {
+                var A, C, D = function(a) {
+                    A = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.";
+                    C = {
+                        "0": 52,
+                        "1": 53,
+                        "2": 54,
+                        "3": 55,
+                        "4": 56,
+                        "5": 57,
+                        "6": 58,
+                        "7": 59,
+                        "8": 60,
+                        "9": 61,
+                        "A": 0,
+                        "B": 1,
+                        "C": 2,
+                        "D": 3,
+                        "E": 4,
+                        "F": 5,
+                        "G": 6,
+                        "H": 7,
+                        "I": 8,
+                        "J": 9,
+                        "K": 10,
+                        "L": 11,
+                        "M": 12,
+                        "N": 13,
+                        "O": 14,
+                        "P": 15,
+                        "Q": 16,
+                        "R": 17,
+                        "S": 18,
+                        "T": 19,
+                        "U": 20,
+                        "V": 21,
+                        "W": 22,
+                        "X": 23,
+                        "Y": 24,
+                        "Z": 25,
+                        "a": 26,
+                        "b": 27,
+                        "c": 28,
+                        "d": 29,
+                        "e": 30,
+                        "f": 31,
+                        "g": 32,
+                        "h": 33,
+                        "i": 34,
+                        "j": 35,
+                        "k": 36,
+                        "l": 37,
+                        "m": 38,
+                        "n": 39,
+                        "o": 40,
+                        "p": 41,
+                        "q": 42,
+                        "r": 43,
+                        "s": 44,
+                        "t": 45,
+                        "u": 46,
+                        "v": 47,
+                        "w": 48,
+                        "x": 49,
+                        "y": 50,
+                        "z": 51,
+                        "-": 62,
+                        "_": 63,
+                        ".": 64
+                    };
+                    for (var b = [], c = 0; c < a.length; c += 3) {
+                        var d = c + 1 < a.length,
+                            e = c + 2 < a.length,
+                            g = a.charCodeAt(c),
+                            f = d ? a.charCodeAt(c + 1) : 0,
+                            h = e ? a.charCodeAt(c + 2) : 0,
+                            p = g >> 2;
+                        g = (g & 3) << 4 | f >> 4;
+                        f = (f & 15) << 2 | h >> 6;
+                        h &= 63;
+                        e || (h = 64, d || (f = 64));
+                        b.push(A[p], A[g], A[f], A[h]);
+                    }
+                    return b.join("");
+                };
+                return D(String(val));
+            };
+
+            return ["1", browser_fingerprint, "_ga", hash_cookie_value(cookies._ga), "_gid", hash_cookie_value(cookies._gid), "_ga_DD933KW8J7", hash_cookie_value(cookies._ga_session)].join('*');
+        };
+
+        var linkerParam = generateLinkerParam();
+
+        function addLinkerParamToURL(url, param, value) {
+            var urlObj = new URL(url, window.location.origin);
+            urlObj.searchParams.set(param, value);
+            return urlObj.toString();
+        }
+
+        function isSameDomain(url1, url2) {
+            var urlObj1 = new URL(url1);
+            var urlObj2 = new URL(url2);
+            return urlObj1.hostname === urlObj2.hostname;
+        }
+
+        document.addEventListener('click', function(event) {
+            var target = event.target.closest('a');
+            if (target && target.href) {
+                var originalUrl = target.href;
+                if (!isSameDomain(window.location.href, originalUrl)) {
+                    var newUrl = addLinkerParamToURL(originalUrl, '_gl', linkerParam);
+                    target.href = newUrl;
+                }
+            }
+        }, false);
+    })();
+</script> -->
+
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2C8J7K"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+   <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFXVZRZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script
+      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+      crossorigin
+    ></script>
+  </body>
+</html>
