@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/film-directory/static/css/main.e435144c.css",
-    "main.js": "/film-directory/static/js/main.baa533da.js",
+    "main.js": "/film-directory/static/js/main.4d2bb7e4.js",
     "static/js/787.13448508.chunk.js": "/film-directory/static/js/787.13448508.chunk.js",
     "static/media/scifi.jpg": "/film-directory/static/media/scifi.d7e33e800ac02f489fd8.jpg",
     "static/media/spiderman-cover.jpg": "/film-directory/static/media/spiderman-cover.afa570da5a7651bc1753.jpg",
@@ -20,11 +20,11 @@
     "static/media/dune.jpg": "/film-directory/static/media/dune.bf1854be9390dd5f2921.jpg",
     "index.html": "/film-directory/index.html",
     "main.e435144c.css.map": "/film-directory/static/css/main.e435144c.css.map",
-    "main.baa533da.js.map": "/film-directory/static/js/main.baa533da.js.map",
+    "main.4d2bb7e4.js.map": "/film-directory/static/js/main.4d2bb7e4.js.map",
     "787.13448508.chunk.js.map": "/film-directory/static/js/787.13448508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e435144c.css",
-    "static/js/main.baa533da.js"
+    "static/js/main.4d2bb7e4.js"
   ]
 }
