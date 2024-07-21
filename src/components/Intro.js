@@ -14,6 +14,9 @@ const Intro = () => {
             <div className="introButton mt-4 text-center">
               <Button href="https://opaku1.000webhostapp.com/" variant="dark">OPAKU</Button>
             </div>
+            <div className="introButton mt-4 text-center">
+              <Button href="http://127.0.0.1:8000/all" variant="dark">GCI</Button>
+            </div>
           </Col>
         </Row>
       </Container>

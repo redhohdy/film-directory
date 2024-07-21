@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DD933KW8J7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      var linkerDomains = ['localhost', '127.0.0.1'];
+      gtag('set', 'linker', {'domains': linkerDomains});
+  
+      // gtag('config', 'G-DD933KW8J7', {
+      //   'send_page_view': false,
+      //   'linker': {
+      //     'domains': ['localhost', '127.0.0.1']
+      //   }
+      // });
+  
+      let clientId;
+      let sessionId;
+  
+      gtag('get', 'G-DD933KW8J7', 'client_id', (id) => {
+        clientId = id;
+        updateLinks();
+      });
+  
+      gtag('get', 'G-DD933KW8J7', 'session_id', (id) => {
+        sessionId = id;
+        updateLinks();
+      });
+  
+      function updateLinks() {
+        if (clientId && sessionId) {
+          document.querySelectorAll('a').forEach(function(anchor) {
+            if (anchor.href.includes('127.0.0.1')) {
+              const url = new URL(anchor.href);
+              url.searchParams.set('clientId', clientId);
+              url.searchParams.set('sessionId', sessionId);
+              anchor.href = url.toString();
+            }
+          });
+        }
+      }
+    </script>
+
     <!-- Google Tag Manager -->
 <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -41,34 +83,7 @@
     -->
     <title>FILMS DIRECTORY</title>
 
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-DD933KW8J7"></script> -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-DD933KW8J7', {
-      'send_page_view': false,
-      'linker': {
-        'domains': ['opaku1.000webhostapp.com', 'redhohdy.github.io']
-      }
-    });
-
-    function getClientIdFromUrl() {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get('clientId');
-    }
-
-    function getSessionIdFromUrl() {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get('sessionId');
-    }
-
-    gtag('config', 'G-DD933KW8J7', {
-      'client_id': getClientIdFromUrl(),
-      'session_id': getSessionIdFromUrl()
-    });
-  </script>
+    
   <!-- <script>
     (function() {
         var generateLinkerParam = function() {
