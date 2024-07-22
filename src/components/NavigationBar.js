@@ -5,7 +5,7 @@ const NavigationBar = () => {
     <div>
       <Navbar variant="dark">
         <Container>
-          <Navbar.Brand href="/">FILMS</Navbar.Brand>
+          <Navbar.Brand href="/film-directory">FILMS</Navbar.Brand>
           <Nav>
             <Nav.Link href="#trending">TRENDING</Nav.Link>
             <Nav.Link href="#superhero">SUPERHERO</Nav.Link>
