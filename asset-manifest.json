@@ -1,30 +1,24 @@
 {
   "files": {
     "main.css": "/film-directory/static/css/main.e435144c.css",
-    "main.js": "/film-directory/static/js/main.4d2bb7e4.js",
+    "main.js": "/film-directory/static/js/main.af012054.js",
     "static/js/787.13448508.chunk.js": "/film-directory/static/js/787.13448508.chunk.js",
     "static/media/scifi.jpg": "/film-directory/static/media/scifi.d7e33e800ac02f489fd8.jpg",
-    "static/media/spiderman-cover.jpg": "/film-directory/static/media/spiderman-cover.afa570da5a7651bc1753.jpg",
     "static/media/spiderman.jpg": "/film-directory/static/media/spiderman.2d8e48db70fee2a9fbe9.jpg",
     "static/media/main.jpg": "/film-directory/static/media/main.4a912a242568343fea42.jpg",
     "static/media/everything.jpg": "/film-directory/static/media/everything.ed96eaa84be6674ac60c.jpg",
     "static/media/avenger.jpg": "/film-directory/static/media/avenger.e6f6d831ff7250a20695.jpg",
-    "static/media/robinhood.jpg": "/film-directory/static/media/robinhood.a811f3623395b8d5c5fd.jpg",
     "static/media/batman.jpg": "/film-directory/static/media/batman.d63ba254a96468382e2b.jpg",
-    "static/media/lightyear.jpg": "/film-directory/static/media/lightyear.881da96e35afae963ad1.jpg",
-    "static/media/joker.jpg": "/film-directory/static/media/joker.4231e28eb1f27552d08f.jpg",
-    "static/media/morbius.jpg": "/film-directory/static/media/morbius.c2de5c653057f3da7c51.jpg",
     "static/media/antman.jpg": "/film-directory/static/media/antman.b77f4ae26e0b3d82058c.jpg",
     "static/media/infinite.jpg": "/film-directory/static/media/infinite.6e1272e9a944932e5963.jpg",
-    "static/media/superman.jpg": "/film-directory/static/media/superman.1f90bb661b43de78b7b8.jpg",
     "static/media/dune.jpg": "/film-directory/static/media/dune.bf1854be9390dd5f2921.jpg",
     "index.html": "/film-directory/index.html",
     "main.e435144c.css.map": "/film-directory/static/css/main.e435144c.css.map",
-    "main.4d2bb7e4.js.map": "/film-directory/static/js/main.4d2bb7e4.js.map",
+    "main.af012054.js.map": "/film-directory/static/js/main.af012054.js.map",
     "787.13448508.chunk.js.map": "/film-directory/static/js/787.13448508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e435144c.css",
-    "static/js/main.4d2bb7e4.js"
+    "static/js/main.af012054.js"
   ]
 }
