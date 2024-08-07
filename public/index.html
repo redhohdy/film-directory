@@ -37,6 +37,7 @@
               url.searchParams.set('clientId', clientId);
               url.searchParams.set('sessionId', sessionId);
               anchor.href = url.toString();
+              history.pushState(null, '', url.toString());
             }
           });
         }
