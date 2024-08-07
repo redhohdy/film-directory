@@ -7,11 +7,11 @@ const Buttons = () => {
     return (
         <>
         <div>
-            <Button href="/about/test?productCode=" variant="outlined">non SPA</Button>
+            <Button href="/film-directory/about/test?productCode=" variant="outlined">non SPA</Button>
         </div>
         <div>
         <br></br>
-        <Button component={Link} to="/about/test?productCode=" variant="outlined">SPA</Button>
+        <Button component={Link} to="/film-directory/about/test?productCode=" variant="outlined">SPA</Button>
         </div>
         </>
     )
