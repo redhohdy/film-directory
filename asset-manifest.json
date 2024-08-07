@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/film-directory/static/css/main.e435144c.css",
-    "main.js": "/film-directory/static/js/main.af012054.js",
+    "main.css": "/film-directory/static/css/main.b47cd68f.css",
+    "main.js": "/film-directory/static/js/main.69d9887b.js",
     "static/js/787.13448508.chunk.js": "/film-directory/static/js/787.13448508.chunk.js",
     "static/media/scifi.jpg": "/film-directory/static/media/scifi.d7e33e800ac02f489fd8.jpg",
     "static/media/spiderman.jpg": "/film-directory/static/media/spiderman.2d8e48db70fee2a9fbe9.jpg",
@@ -13,12 +13,12 @@
     "static/media/infinite.jpg": "/film-directory/static/media/infinite.6e1272e9a944932e5963.jpg",
     "static/media/dune.jpg": "/film-directory/static/media/dune.bf1854be9390dd5f2921.jpg",
     "index.html": "/film-directory/index.html",
-    "main.e435144c.css.map": "/film-directory/static/css/main.e435144c.css.map",
-    "main.af012054.js.map": "/film-directory/static/js/main.af012054.js.map",
+    "main.b47cd68f.css.map": "/film-directory/static/css/main.b47cd68f.css.map",
+    "main.69d9887b.js.map": "/film-directory/static/js/main.69d9887b.js.map",
     "787.13448508.chunk.js.map": "/film-directory/static/js/787.13448508.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e435144c.css",
-    "static/js/main.af012054.js"
+    "static/css/main.b47cd68f.css",
+    "static/js/main.69d9887b.js"
   ]
 }
